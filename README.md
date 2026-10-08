@@ -85,7 +85,7 @@ screenshots/    Execution evidence
 docs/           Reflection
 ```
 
-The existing student account was reused; the optional account-creation helper was not needed.
+I reused my existing student account for this assignment.
 
 ## How to run
 
