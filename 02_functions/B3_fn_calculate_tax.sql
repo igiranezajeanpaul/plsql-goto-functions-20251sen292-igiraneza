@@ -1,5 +1,3 @@
--- Fictional MONTHLY progressive tax for this classroom project, in RWF.
--- First 100000: 0%; next 200000: 10%; amount above 300000: 20%.
 CREATE OR REPLACE FUNCTION fn_calculate_tax (
     p_monthly_salary IN NUMBER
 ) RETURN NUMBER
