@@ -10,7 +10,7 @@ BEGIN
     RETURN v_name;
 EXCEPTION
     WHEN NO_DATA_FOUND THEN
-        RETURN NULL; -- Caller decides how to display or reject missing data.
+        RETURN NULL;
 END;
 /
 SHOW ERRORS FUNCTION fn_dept_name;
