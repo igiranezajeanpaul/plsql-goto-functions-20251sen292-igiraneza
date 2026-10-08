@@ -97,15 +97,16 @@ Open each file in SQL Developer, select the student connection and press **F5**.
 2. `01_goto/A1_number_classifier.sql`
 3. `01_goto/A2_salary_review.sql`
 4. `01_goto/A3_illegal_goto.sql` - deliberately produces PLS-00375.
-5. `01_goto/A4_rewrite_no_goto.sql`
-6. `02_functions/B1_fn_annual_salary.sql`
-7. `02_functions/B2_fn_years_of_service.sql`
-8. `02_functions/B3_fn_calculate_tax.sql`
-9. `02_functions/B4_fn_dept_name.sql`
-10. `02_functions/C1_fn_validate_payroll.sql`
-11. `03_tests/test_functions.sql`
-12. `03_tests/B5_functions_in_select.sql`
-13. `03_tests/test_validate_payroll.sql`
+5. `01_goto/A3_fixed_goto.sql` - run the corrected example successfully.
+6. `01_goto/A4_rewrite_no_goto.sql`
+7. `02_functions/B1_fn_annual_salary.sql`
+8. `02_functions/B2_fn_years_of_service.sql`
+9. `02_functions/B3_fn_calculate_tax.sql`
+10. `02_functions/B4_fn_dept_name.sql`
+11. `02_functions/C1_fn_validate_payroll.sql`
+12. `03_tests/test_functions.sql`
+13. `03_tests/B5_functions_in_select.sql`
+14. `03_tests/test_validate_payroll.sql`
 
 C1 must be created before B5 because the report calls it. The intentional A3 error is expected; other errors should be investigated before continuing.
 
