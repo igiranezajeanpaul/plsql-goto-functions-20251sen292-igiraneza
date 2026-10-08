@@ -9,8 +9,6 @@ COLUMN annual_salary FORMAT 9999999990.00;
 COLUMN monthly_tax FORMAT 999999990.00;
 COLUMN monthly_net FORMAT 999999990.00;
 
--- CASE guards stop invalid imported values reaching numeric/date functions.
--- We show all employees rather than silently hiding rejected records.
 SELECT employee_id, employee_name,
        NVL(fn_dept_name(department_id), 'Unassigned') AS department,
        CASE WHEN monthly_salary >= 0
